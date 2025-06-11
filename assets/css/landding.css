@@ -286,11 +286,30 @@ header{
     background: skyblue;
     position: relative;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.text2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
 .target {
-  display: block;
-  top: 0;
-  left: 0;
-  position: fixed;
+    display: block;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+.sec04_title p{
+    position: absolute;
+    top: 150px;
+    left: 276px;
+    color: #D5D5D5;
+    font-size: 100px;
+    font-weight: bold;
 }
 .open-accordion {
   display: block;
@@ -307,21 +326,22 @@ header{
 }
 
 .accordion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
   list-style: none;
   position: absolute;
-  top: 319px;
+  top: 284px;
   left: 276px;
 }
+
 .accordion__li {
-  width: 45rem;
-  background: white;
-  border-radius: 0.4rem;
-  padding: 2rem;
+    width: 1368px;
+    height: 130px;
+    background: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .accordion__li a > div {
