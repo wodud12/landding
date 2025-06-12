@@ -425,6 +425,42 @@ header{
 
 @media(max-width:1280px){
     /* section 01 */
+.section01{
+    width: 50%;
+    height: 874px;
+    background: #4F7AB7;
+    margin-top: 80px;
+}
+
+.section01::after{
+    content:"";
+    width: 50%;
+    background: #2F3032;
+    height: 874px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    margin-top: 80px;
+}
+.section01__title{
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    color: #fff;
+}
+.section01__title p {
+    font-size: 68px;
+    font-weight: 700;
+}
+.section01__img{
+    width: 717.67px;
+    height: 390px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+}
 
     /* section 02 */
 
