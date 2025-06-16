@@ -283,7 +283,7 @@ header{
 .section04{
     width: 100%;
     height: 855px;
-    background: skyblue;
+    background: white;
     position: relative;
 }
 .content{
@@ -307,7 +307,7 @@ header{
     position: absolute;
     top: 150px;
     left: 276px;
-    color: #D5D5D5;
+    color: #EEEDED;
     font-size: 100px;
     font-weight: bold;
 }
@@ -335,7 +335,7 @@ header{
 .accordion__li {
     width: 1368px;
     height: 130px;
-    background: white;
+    background: #E7F0FB;
     border-radius: 0.4rem;
     display: flex;
     flex-direction: column;
@@ -449,20 +449,17 @@ header{
         height: 572px;
     }
     .section02__container {
-        width: 1041px;
+        width: 1110px;
         height: 572px;
         margin-top: 100px;
-        margin-left: 440px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 11px 19px;
+        margin-left: 85px;
     }
     .section02__col {
-        height: 297px;
+        height: 282px;
     }
     .section02__col_box{
         width: 517px;
-        height: 297px;
+        height: 282px;
         background: #CAD1DA;
         align-items: center;
         display: flex;
