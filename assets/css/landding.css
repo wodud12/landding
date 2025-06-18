@@ -601,64 +601,60 @@ header{
     /* section 03 */
 
     .section03{
-        height: 573px;
-        padding: 0;
-        display: flex;
-        align-items: center;
+        height: 413px;
     }
     .section03__container {
-        width: 435px;
-        height: 573px;
+        width: 335px;
+        height: 100%;
     }
     .section03__title{
-        width: 352px;
-        height: 204px;
+        width: 210px;
+        height: 127px;
     }
     .sec03_t1{
-        font-size: 46px;
-        margin-bottom: 20px;
+        font-size: 26px;
+        margin-bottom: 15px;
     }
     .sec03_t2{
-        font-size: 20px;
-        margin-bottom: 50px;
+        font-size: 14px;
     }
     .section03__btn {
-        width: 314px;
-        font-size: 24px;
+        width: 188px;
+        height: 35px;
+        font-size: 18px;
     }
     .swiper {
-        width: 100%;
-        height: 362px;
-        margin-top: 0;
+        height: 261px;
     }
 
     .swiper-slide {
-        width: 283px !important;
+        width: 205px !important;
         position: relative;
+        border-radius: 10px;
     }
     .swiper-slide span{
-        font-size: 100px;
-        line-height: 140%       ;
-        top: 39px;
-        left: 5px;
+        font-size: 70px;
+        line-height: 80%;       ;
+        top: 50px;
+        left: 4px;
     }
     .swiper-slide .slide_text{
-        font-size: 28px;
-        line-height: 52px;
-        top: 62px;
-        left: 75px;
+        font-size: 22px;
+        line-height: 80px;
+        top: 25px;
+        left: 50px;
     }
     .swiper-slide p{
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 18px;
+        line-height: 20px;
         position: absolute;
-        top: 124px;
-        left: 75px;
+        top: 80px;
+        left: 66px;
     }
     .swiper-slide img {
-        width: 273px;
-        height: 154px;
-        bottom: 27px;
+        width: 186px;
+        height: 111px;
+        bottom: 10px;
     }
     /*  section 04 */
 
@@ -700,6 +696,59 @@ header{
         font-size: 14px;
     }
     /* section 03 */
+    
+    .section03{
+        height: 325px;
+    }
+    .section03__container {
+        width: 250px;
+        height: 100%;
+    }
+    .section03__title{
+        width: 210px;
+        height: 127px;
+    }
+    .sec03_t1{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .sec03_t2{
+        font-size: 10px;
+    }
+    .section03__btn {
+        width: 161px;
+        height: 27px;
+        font-size: 14px;
+    }
+    .swiper {
+        height: 205px;
+    }
+
+    .swiper-slide {
+        width: 161px;
+        height: 205px !important;
+        position: relative;
+        border-radius: 10px;
+    }
+    .swiper-slide span{
+        font-size: 60px;
+        line-height: 70px;       ;
+        top: 17px;
+        left: 0;
+    }
+    .swiper-slide .slide_text{
+        font-size: 18px;
+        line-height: 20px;
+        top: 28px;
+        left: 50px;
+    }
+    .swiper-slide p{
+        font-size: 16px;
+        line-height: 20px;
+        position: absolute;
+        top: 64px;
+        left: 60px;
+    }
 
     /*  section 04 */
 
@@ -764,6 +813,59 @@ header{
     }
     /* section 03 */
 
+    .section03{
+        height: 228px;
+    }
+    .section03__container {
+        width: 185px;
+        height: 100%;
+    }
+    .section03__title{
+        width: 185px;
+        height: 83px;
+    }
+    .sec03_t1{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .sec03_t2{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .section03__btn {
+        width: 114px;
+        height: 19px;
+        font-size: 10px;
+    }
+    .swiper {
+        height: 144px;
+    }
+
+    .swiper-slide {
+        width: 351px;
+        height: 144px !important;
+        position: relative;
+        border-radius: 10px;
+    }
+    .swiper-slide span{
+        font-size: 60px;
+        line-height: 70px;       ;
+        top: 17px;
+        left: 0;
+    }
+    .swiper-slide .slide_text{
+        font-size: 18px;
+        line-height: 20px;
+        top: 28px;
+        left: 50px;
+    }
+    .swiper-slide p{
+        font-size: 16px;
+        line-height: 20px;
+        position: absolute;
+        top: 64px;
+        left: 60px;
+    }
     /*  section 04 */
 
 }
