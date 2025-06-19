@@ -545,6 +545,23 @@ header{
 
     /* section 04 */
     
+    .section04{
+        height: 738px;
+    }
+    .sec04_title p{
+        top: 100px;
+        left: 85px;
+    }
+    .accordion {
+        top: 208px;
+        left: 85px;
+    }
+    .accordion__li {
+        width: 1110px;
+        height: 88px;
+        margin-bottom: 30px;
+    }
+
     /* section05 */
 }
 
@@ -658,6 +675,27 @@ header{
     }
     /*  section 04 */
 
+    .section04{
+        height: 539px;
+    }
+    .sec04_title p{
+        font-size: 80px;
+        top: 47px;
+        left: 30px;
+    }
+    .accordion {
+        top: 147px;
+        left: 30px;
+    }
+    .accordion__li {
+        width: 960px;
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .accordion__content{
+        font-size: 20px;
+    }
+
      /* section05 */
 
 }
@@ -752,6 +790,29 @@ header{
 
     /*  section 04 */
 
+    .section04{
+        height: 421px;
+    }
+    .sec04_title p{
+        font-size: 60px;
+        line-height: 60px;
+        top: 46px;
+        left: 19px;
+    }
+    .accordion {
+        top: 126px;
+        left: 19px;
+    }
+    .accordion__li {
+        width: 730px;
+        height: 56px;
+        margin-bottom: 10px;
+        font-size: ;
+    }
+    .accordion__content{
+        font-size: 20px;
+    }
+
     /* section05 */
 
 }
@@ -842,7 +903,7 @@ header{
     }
 
     .swiper-slide {
-        width: 351px;
+        width: 114px;
         height: 144px !important;
         position: relative;
         border-radius: 10px;
