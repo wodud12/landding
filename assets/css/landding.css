@@ -807,7 +807,7 @@ header{
         width: 730px;
         height: 56px;
         margin-bottom: 10px;
-        font-size: ;
+        font-size: 18px;
     }
     .accordion__content{
         font-size: 20px;
@@ -928,5 +928,28 @@ header{
         left: 60px;
     }
     /*  section 04 */
+    .section04{
+        height: 341px;
+    }
+    .sec04_title p{
+        font-size: 50px;
+        line-height: 60px;
+        top: 50px;
+        left: 15px;
+    }
+    .accordion {
+        top: 120px;
+        left: 15px;
+    }
+    .accordion__li {
+        width: 510px;
+        height: 39px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .accordion__content{
+        font-size: 12px;
+    }
 
 }
